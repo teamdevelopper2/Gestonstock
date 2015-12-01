@@ -1,0 +1,12 @@
+parameters:
+#Connexion sur mysql
+    database_driver2: pdo_mysql
+    database_host2: 127.0.0.1
+    database_port2: ''
+    database_name2: gestionstock
+    database_user2: root
+    database_password2:
+    mailer_transport2: gmail
+    mailer_host2: smtp.gmail.com
+    mailer_user2: bobo
+    mailer_password2: 48509010

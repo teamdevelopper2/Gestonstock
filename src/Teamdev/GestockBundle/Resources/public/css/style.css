@@ -1,0 +1,7 @@
+.loading{
+    float: right;
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-image: url("../../../images/ajax-loader.gif");
+}

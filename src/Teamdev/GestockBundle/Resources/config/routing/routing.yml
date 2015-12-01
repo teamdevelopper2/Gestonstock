@@ -1,0 +1,167 @@
+teamdev_gestock_ville:
+    path:   /villes/{id}
+    defaults: { _controller: TeamdevGestockBundle:Default:villes }
+
+teamdev_gestock_createville:
+    path:   /ville/create
+    defaults: { _controller: TeamdevGestockBundle:Default:createville }
+    requirements:
+        _method: POST
+
+teamdev_gestock_add-file:
+    path: /add-file
+    defaults: { _controller: TeamdevGestockBundle:Default:addFile }
+    requirements:
+        _method: POST
+
+
+# templates
+teamdev_gestock_index:
+    path:     /index
+    defaults: { _controller: TeamdevGestockBundle:Default:index }
+
+
+teamdev_gestock_wizard:
+    path:   /wizard
+    defaults: { _controller: TeamdevGestockBundle:Default:wizard }
+
+teamdev_gestock_table:
+    path:     /table
+    defaults: { _controller: TeamdevGestockBundle:Default:tabledata }
+
+
+teamdev_gestock_alerts:
+    path:   /alerts
+    defaults: { _controller: TeamdevGestockBundle:Default:alerts }
+
+
+teamdev_gestock_blanks:
+    path:     /blanks
+    defaults: { _controller: TeamdevGestockBundle:Default:blanks }
+
+
+teamdev_gestock_buttons:
+    path:   /buttons
+    defaults: { _controller: TeamdevGestockBundle:Default:buttons }
+
+teamdev_gestock_calendar:
+    path:     /calendar
+    defaults: { _controller: TeamdevGestockBundle:Default:calendar }
+
+
+teamdev_gestock_chartjs:
+    path:   /chartjs
+    defaults: { _controller: TeamdevGestockBundle:Default:chartjs }
+
+teamdev_gestock_elements:
+    path:     /elements
+    defaults: { _controller: TeamdevGestockBundle:Default:elements }
+
+
+teamdev_gestock_error404:
+    path:   /error404
+    defaults: { _controller: TeamdevGestockBundle:Default:error404 }
+
+teamdev_gestock_databoxs:
+    path:     /databoxs
+    defaults: { _controller: TeamdevGestockBundle:Default:databoxs }
+
+
+teamdev_gestock_error500:
+    path:   /error500
+    defaults: { _controller: TeamdevGestockBundle:Default:error500 }
+
+teamdev_gestock_flot:
+    path:     /flot
+    defaults: { _controller: TeamdevGestockBundle:Default:flot }
+
+
+teamdev_gestock_fontawesome:
+    path:   /fontawesome
+    defaults: { _controller: TeamdevGestockBundle:Default:fontawesome }
+
+teamdev_gestock_formeditors:
+    path:     /formeditors
+    defaults: { _controller: TeamdevGestockBundle:Default:formeditors }
+
+
+teamdev_gestock_forminputmask:
+    path:   /forminputmask
+    defaults: { _controller: TeamdevGestockBundle:Default:forminputmask }
+
+teamdev_gestock_forminputs:
+    path:     /forminputs
+    defaults: { _controller: TeamdevGestockBundle:Default:forminputs }
+
+
+teamdev_gestock_formlayouts:
+    path:   /formlayouts
+    defaults: { _controller: TeamdevGestockBundle:Default:formlayouts }
+
+teamdev_gestock_formpickers:
+    path:     /formpickers
+    defaults: { _controller: TeamdevGestockBundle:Default:formpickers }
+
+
+teamdev_gestock_formvalidation:
+    path:   /formvalidation
+    defaults: { _controller: TeamdevGestockBundle:Default:formvalidation }
+
+teamdev_gestock_glyphicons:
+    path:     /glyphicons
+    defaults: { _controller: TeamdevGestockBundle:Default:glyphicons }
+
+
+teamdev_gestock_grid:
+    path:   /grid
+    defaults: { _controller: TeamdevGestockBundle:Default:grid }
+
+
+teamdev_gestock_messagecompose:
+    path:   /messagecompose
+    defaults: { _controller: TeamdevGestockBundle:Default:messagecompose }
+
+teamdev_gestock_inbox:
+    path:     /inbox
+    defaults: { _controller: TeamdevGestockBundle:Default:inbox }
+
+
+teamdev_gestock_invoice:
+    path:   /invoice
+    defaults: { _controller: TeamdevGestockBundle:Default:invoice }
+
+teamdev_gestock_lock:
+    path:     /lock
+    defaults: { _controller: TeamdevGestockBundle:Default:lock }
+
+
+teamdev_gestock_login:
+    path:   /login
+    defaults: { _controller: TeamdevGestockBundle:Default:login }
+
+teamdev_gestock_messageview:
+    path:     /messageview
+    defaults: { _controller: TeamdevGestockBundle:Default:messageview }
+
+
+teamdev_gestock_modals:
+    path:   /modals
+    defaults: { _controller: TeamdevGestockBundle:Default:modals }
+
+teamdev_gestock_tablesimple:
+    path:     /tablesimple
+    defaults: { _controller: TeamdevGestockBundle:Default:tablesimple }
+
+
+teamdev_gestock_tabs:
+    path:   /tabs
+    defaults: { _controller: TeamdevGestockBundle:Default:tabs }
+
+teamdev_gestock_widget:
+    path:     /widget
+    defaults: { _controller: TeamdevGestockBundle:Default:widget }
+
+
+teamdev_gestock_register:
+    path:   /register
+    defaults: { _controller: TeamdevGestockBundle:Default:register }
